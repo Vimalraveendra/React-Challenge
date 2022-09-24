@@ -6,8 +6,9 @@
 .pnp.js
 
 ###Visual studio code ###
- .vscode
+ .vscode/
  .vscode/settings.json
+
 
 # testing
 /coverage
