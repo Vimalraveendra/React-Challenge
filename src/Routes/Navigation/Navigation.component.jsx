@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import { NavLink } from "react-router-dom";
+import "./Navigation.styles.scss";
 
 const Navigation = () => {
   return (
