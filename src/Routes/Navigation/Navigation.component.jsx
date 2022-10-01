@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 import "./Navigation.styles.scss";
 
 const Navigation = () => {
@@ -18,6 +18,7 @@ const Navigation = () => {
           </NavLink>
         </div>
       </div>
+      <Outlet />
     </Fragment>
   );
 };
