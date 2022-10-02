@@ -7,6 +7,9 @@ const Navigation = () => {
     <Fragment>
       <div className="navigation">
         <div className="nav-links-container">
+          <NavLink className="nav-link" to="/">
+            Home
+          </NavLink>
           <NavLink className="nav-link" to="/all">
             All
           </NavLink>
